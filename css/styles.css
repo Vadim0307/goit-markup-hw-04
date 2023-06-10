@@ -211,11 +211,14 @@ body {
         display: flex;
         gap: 24px;
         padding-left: 0;
-        /* padding-left: 15px;
-        padding-right: 15px; */
+
+    .directions-item-icon {
+    }
+
     }
     .directions-item {
     flex-basis: calc((100% - 72px) / 4);
+    width: 264px;
     }
    
     .directions-subtitle {
@@ -283,8 +286,7 @@ body {
         text-align: center;
         padding: 32px 16px;
     }
-    
-
+               
     /**-------INDEX---Footer---------*/
     .footer {
         background-color: var(--title-color);
