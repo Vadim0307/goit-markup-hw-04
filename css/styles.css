@@ -286,8 +286,52 @@ body {
         text-align: center;
         padding: 32px 16px;
     }
-               
-    /**-------INDEX---Footer---------*/
+    
+    .osoba-icon {
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .osoba-icon-li {
+    }
+
+
+    .osoba-icon-svg {
+        /* color: #F4F4FD; */
+        fill:currentColor #F4F4FD;
+        /* fill:currentColor #4D5AE5; */
+    }
+    
+        /**-------INDEX---Section 5---------*/
+
+        .customers {
+            padding-bottom: 120px;
+        }
+        .customers-container {}
+        .customers-title {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.11;
+            text-align: center;
+            letter-spacing: 0.02em;
+            text-transform: capitalize;
+            color: var(--title-color);
+            margin-bottom: 72px;
+        }
+        .customers-menu {
+            display: flex;
+            gap: 24px;
+            justify-content: space-between;
+        }
+        .customers-item {
+            flex-basis: calc((100% - 120px) / 6);
+        }
+
+
+        /**-------INDEX---Footer---------*/
     .footer {
         background-color: var(--title-color);
         padding-top: 100px;
