@@ -158,6 +158,11 @@ body {
 
     .reclama-container {
         width: 1470px; 
+        height: 600px;
+        background-image: linear-gradient(to bottom,rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(../images/hero-bg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
 
     .reclama-effective {
@@ -313,6 +318,7 @@ body {
         border-radius: 50%;
         /* fill:currentColor #F4F4FD; */
         /* fill:currentColor #4D5AE5; */
+        
     }
     
         /**-------INDEX---Section 4---------*/
