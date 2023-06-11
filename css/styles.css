@@ -342,136 +342,139 @@ body {
         .customers-menu {
             display: flex;
             gap: 24px;
-            justify-content: space-between;
+            justify-content: center;
         }
         .customers-item {
             flex-basis: calc((100% - 120px) / 6);
+            padding: 16px 32px;
+            border: 1px solid #8e8f99;
+            background-color: #ffffff;
         }
 
 
         /**-------INDEX---Footer---------*/
-    .footer {
-        background-color: var(--title-color);
-        padding-top: 100px;
-        padding-bottom: 100px;
-        padding-left: 0;
-    }
-    footer-container{
-        width: 1158px;
-    }
-    .footer-logo {
-        font-family: 'Raleway', sans-serif;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: var(--logo-color);
-        text-decoration: none;
-        display: inline-block; 
-        margin-bottom: 16px; 
-    }
-    .footer-text {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--backgr-color);
-        max-width: 264px;
-    }
-    .span-footer {
-        color: var(--backgr-color);
-    }
-   
-
-    /**---PORTFOLIO------Header---------*/
+        .footer {
+            background-color: var(--title-color);
+            padding-top: 100px;
+            padding-bottom: 100px;
+            padding-left: 0;
+        }
+        footer-container{
+            width: 1158px;
+        }
+        .footer-logo {
+            font-family: 'Raleway', sans-serif;
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: var(--logo-color);
+            text-decoration: none;
+            display: inline-block; 
+            margin-bottom: 16px; 
+        }
+        .footer-text {
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: var(--backgr-color);
+            max-width: 264px;
+        }
+        .span-footer {
+            color: var(--backgr-color);
+        }
     
+
+        /**---PORTFOLIO------Header---------*/
         
-    /**---PORTFOLIO------Block1------------*/
-   
+            
+        /**---PORTFOLIO------Block1------------*/
+    
+            
+        .block-one-four {
+            padding-top: 96px;
+            padding-bottom: 120px; 
+        }
+
+        .block-one-four-container {}
+
+        .button-menu {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 72px;
+            gap: 24px;
+        }
+        .button-menu-item {}
+
+        .button-menu-general {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            color: var(--logo-color);
+            cursor: pointer;
+            background-color: var(--backgr-color);
+            border: 1px solid var(--button-color);
+            border-radius: 4px; 
+            padding: 12px 24px; 
+        }
+
+        /* .button-menu-all {
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            color: var(--white-color);
+            cursor: pointer;
+            background: var(--link-color);
+            border: 1px solid var(--button-color);
+            box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+            border-radius: 4px;
+            padding: 12px 24px;
+        } */
+
+        .button-menu-general:hover, .button-menu-general:focus {
+            color:var(--white-color);
+            background-color: var(--link-color);
+            border: 1px solid transparent;
+        }
+
         
-    .block-one-four {
-        padding-top: 96px;
-        padding-bottom: 120px; 
-    }
+        /**---PORTFOLIO------Block 2-4----------*/
+        
+        .section-menu {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 24px;
+            row-gap: 48px;
+        }
+        .section-item {
+            flex-basis: calc((100% - 48px) / 3);
+        }
+        
+        .block {
+            text-decoration: none;
+        }
 
-    .block-one-four-container {}
+        .block-title-text-container {
+            padding: 32px 16px;
+            border: 1px solid var(--button-color);
+            border-top: none; 
+        }
+        
+        .block-title {
+            margin-bottom: 8px;
+        }
+        .block-text {}
+        
 
-    .button-menu {
-        list-style: none;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 72px;
-        gap: 24px;
-    }
-    .button-menu-item {}
-
-    .button-menu-general {
-        font-family: 'Roboto', sans-serif;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: var(--logo-color);
-        cursor: pointer;
-        background-color: var(--backgr-color);
-        border: 1px solid var(--button-color);
-        border-radius: 4px; 
-        padding: 12px 24px; 
-    }
-
-    /* .button-menu-all {
-        font-family: 'Roboto', sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: var(--white-color);
-        cursor: pointer;
-        background: var(--link-color);
-        border: 1px solid var(--button-color);
-        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-        border-radius: 4px;
-        padding: 12px 24px;
-    } */
-
-    .button-menu-general:hover, .button-menu-general:focus {
-        color:var(--white-color);
-        background-color: var(--link-color);
-        border: 1px solid transparent;
-    }
-
-      
-    /**---PORTFOLIO------Block 2-4----------*/
-    
-    .section-menu {
-        list-style: none;
-        display: flex;
-        flex-wrap: wrap;
-        column-gap: 24px;
-        row-gap: 48px;
-    }
-    .section-item {
-        flex-basis: calc((100% - 48px) / 3);
-    }
-    
-    .block {
-        text-decoration: none;
-    }
-
-    .block-title-text-container {
-        padding: 32px 16px;
-        border: 1px solid var(--button-color);
-        border-top: none; 
-    }
-    
-    .block-title {
-        margin-bottom: 8px;
-    }
-    .block-text {}
-    
-
-    
-    /**---PORTFOLIO------Footer-------------*/
-    
+        
+        /**---PORTFOLIO------Footer-------------*/
+        
     
