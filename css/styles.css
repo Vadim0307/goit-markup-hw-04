@@ -359,12 +359,16 @@ body {
             padding-bottom: 100px;
             padding-left: 0;
             display: flex;
-            gap: 120px;
+            /* gap: 120px; */
+            justify-content: center;
         }
 
-        footer-container{
-            width: 1158px;
-        }
+        .footer-container{
+            max-width: 264px;
+            margin-left: 111px;
+            }
+       
+        
         .footer-logo {
             font-family: 'Raleway', sans-serif;
             font-weight: 800;
@@ -398,8 +402,8 @@ body {
             letter-spacing: 0.02em;
             color: #FFFFFF;
             display: inline-block; 
-            margin-bottom: 16px; 
-        }
+            margin-bottom: 16px;
+      }
 
         .social-icon {
             display: flex;
