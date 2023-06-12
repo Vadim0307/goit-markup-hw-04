@@ -3,6 +3,7 @@ body {
     color: var(--text-color);
     background-color: var(--white-color);
     }
+    
     /**Perezavantagennya ctuliv-----*/
     p, h1, h2, h3, h4, h5, h6 {
         margin: 0;
@@ -28,7 +29,6 @@ body {
         clip: rect(0 0 0 0);
         overflow: hidden;
     }
-
 
     .container{
         width: 100%;
@@ -173,7 +173,7 @@ body {
 
     /*todo----INDEX----Main-------------*/
 
-    /**-------INDEX---Hero---------*/
+    /**-------INDEX---Hero--Section 1-------*/
     .hero {
         background-color: var(--title-color);
         padding-bottom: 188px;
@@ -224,7 +224,7 @@ body {
         background-color: var(--link-color);
     }
 
-    /**-------INDEX---Section 1---------*/
+    /**-------INDEX---Section 2--Directions--------*/
     
     .directions-container {
         width: 1158px;
@@ -265,7 +265,7 @@ body {
     }
     .directions-subtext {}
     
-    /**-------INDEX---Section 2---------*/
+    /**-------INDEX---Section 3--Doing-------*/
     .doing {
         padding-bottom: 120px;
     }
@@ -288,7 +288,7 @@ body {
         flex-basis: calc((100% - 48px) / 3);
     }
     
-    /**-------INDEX---Section 3---------*/
+    /**-------INDEX---Section 4--Team-------*/
     .team {
         background-color: var(--backgr-color);
         padding-top: 120px;
@@ -354,7 +354,7 @@ body {
         fill: var(--icon-color);
      }
 
-        /**-------INDEX---Section 4---------*/
+        /**-------INDEX---Section 5--Customers-------*/
 
     .customers {
          padding-bottom: 120px;
@@ -408,8 +408,7 @@ body {
         max-width: 264px;
         margin-left: 111px;
         }
-    
-    
+        
     .footer-logo {
         font-family: 'Raleway', sans-serif;
         font-weight: 800;
@@ -468,7 +467,6 @@ body {
         border-radius: 50%;
         transition: fill var(--transition);
     }
-
               
     .social-icon-li:hover .social-icon-svg,
     .social-icon-li:focus .social-icon-svg {
@@ -575,8 +573,6 @@ body {
         background-color: var(--link-color);
         border: 1px solid transparent;
     }
-
-            
        
     /**---PORTFOLIO------Block 2-4----------*/
     
