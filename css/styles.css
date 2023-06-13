@@ -81,6 +81,7 @@ body {
         padding-top: 24px;
         padding-bottom: 24px;
         border-bottom: 1px solid var(--button-color);
+        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
     }
     .header-navigation {
         display: flex;
@@ -98,7 +99,7 @@ body {
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
-        color: var(--logo-color);
+        color: var(--link-color);
         text-transform: uppercase;
         text-decoration: none;
         margin-right: 76px;
@@ -178,16 +179,17 @@ body {
         background-color: var(--title-color);
         padding-bottom: 188px;
         padding-top: 188px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
+        max-width: 1440px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
 
     .hero-container {
         width: 1470px; 
         height: 600px;
-        background-image: linear-gradient(to bottom,rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(../images/hero-bg.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
+        }
 
     .hero-effective {
         font-weight: 700;
@@ -202,6 +204,7 @@ body {
         padding-top: 188px;
         margin-bottom: 48px;
         }
+
     .hero-btn {
         font-family: 'Roboto', sans-serif;
         font-weight: 500;
@@ -217,7 +220,7 @@ body {
         border: none;
         display: block;
         margin: 0 auto;
-        transition: color var(--transition);
+        transition: background-color var(--transition);
     }
 
     .hero-btn:hover, .hero-btn:focus {
