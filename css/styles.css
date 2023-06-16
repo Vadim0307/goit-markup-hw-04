@@ -443,7 +443,7 @@ body {
         fill: currentColor;
     }
 
-    .customers-link:is(:hover, .focus) {
+    .customers-img:is(:hover, :focus) {
         border-color: var(--link-color);
         color: var(--link-color);
     }
