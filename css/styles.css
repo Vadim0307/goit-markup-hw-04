@@ -31,7 +31,7 @@ body {
     }
 
     .container{
-        width: 100%;
+        /* width: 100%; */
         max-width: 1158px;
         padding-left: 15px;
         padding-right: 15px;
@@ -116,7 +116,9 @@ body {
         gap: 40px;
     }
 
-    .header-menu-item {}
+    .header-menu-item {
+        color: var(--title-color);
+    }
 
     .header-menu-link {
         font-weight: 500;
@@ -125,8 +127,7 @@ body {
         letter-spacing: 0.02em;
         color: var(--title-color);
         position: relative;
-        text-decoration: none;
-        color:var(--title-color);
+        /* text-decoration: none; */
         padding: 24px 0;
         transition: color var(--transition);
     }
@@ -138,8 +139,7 @@ body {
       /**------Pidkreslennya------------*/
    
     .current {
-    /* position: relative; */
-    color: var(--link-color);
+        color: var(--link-color);
     }
 
     .current::after {
@@ -188,12 +188,12 @@ body {
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+        margin: 0 auto;
     }
 
     .hero-container {
         width: 1470px; 
-        height: 600px;
-        }
+    }
 
     .hero-effective {
         font-weight: 700;
@@ -205,7 +205,6 @@ body {
         max-width: 496px;
         margin-left: auto;
         margin-right: auto;
-        padding-top: 188px;
         margin-bottom: 48px;
         }
 
@@ -267,15 +266,15 @@ body {
 
     .directions-item-icon {
         width: 264px;
-        background: #D9D9D9;
-        padding: 24px 100px;
         transition: color var(--transition);
     }
 
     .directions-item:hover .directions-item-icon,
     .directions-item:focus .directions-item-icon {
-    fill: var(--link-color);
+    fill: var(--logo-color);
     }
+
+  
 
     .directions-subtitle {
         margin-bottom: 8px;
@@ -311,6 +310,7 @@ body {
     .team {
         background-color: var(--backgr-color);
         padding-top: 120px;
+        padding-bottom: 120px;
     }
 
     .team-container{
@@ -339,7 +339,9 @@ body {
     .team-subtitle {
         margin-bottom: 8px;
     }
-    .team-subtext {}
+    .team-subtext {
+        margin-bottom: 8px;
+    }
 
     .osoba {
         text-align: center;
@@ -353,13 +355,11 @@ body {
     display: flex;
     gap: 24px;
     justify-content: center;
-    padding: 32px 0;
     }
 
     .osoba-icon-li {
         width: 40px;
         height: 40px;
-        margin-bottom: 32px;
     }
 
     .osoba-icon-a {
@@ -370,7 +370,6 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 12px;
         transition: background-color var(--transition);
     }
 
@@ -545,7 +544,6 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 12px;
         transition: background-color var(--transition);
     }
 
@@ -679,9 +677,6 @@ body {
         padding: 12px 24px; 
         transition: color var(--transition), background-color var(--transition), border-color var(--transition), box-shadow var(--transition);
         display: block;
-    }
-    .button-menu-item:hover, .button-menu-item:focus {
-        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     }
     
     .button-menu-general:hover, .button-menu-general:focus {
