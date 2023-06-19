@@ -269,13 +269,6 @@ body {
         transition: color var(--transition);
     }
 
-    .directions-item:hover .directions-item-icon,
-    .directions-item:focus .directions-item-icon {
-    fill: var(--logo-color);
-    }
-
-  
-
     .directions-subtitle {
         margin-bottom: 8px;
     }
@@ -618,7 +611,7 @@ body {
     }
     
     .modal-btn:is(:hover, :focus) {
-        background-color: var(--link-color);
+        /* background-color: var(--link-color); */
         border: none;
         fill: var(--white-color);
     }
@@ -630,20 +623,15 @@ body {
     }
 
     .modal-close-icon {
-        /* width: 100%;
-        height: 100%;
-        /* padding: 8px; */
-        /* background-color: var(--title-color);
-        border-radius: 50%; */ 
         position: absolute;
         transition: fill var(--transition);
     }
 
     /**---PORTFOLIO------Header---------*/
     
-    .header-menu-link {
+    /* .header-menu-link {
         color: var(--link-color);
-    }
+    } */
         
     /**---PORTFOLIO------Block1------------*/
 
